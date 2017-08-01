@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class ="container-fluid">
+  <div class="row">
+    <div class="col-md-12 text-center">
+          <!-- add inline style to trick fontawesome to load first otherwise canvas will run without loading
+    it-->
+      <div style="font-family: FontAwesome"></div>
+      <canvas id="myCanvas" ></canvas>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 text-center" id="info">
+      Coded by <a href="https://www.freecodecamp.com/dereje1" target="_blank">DGetahun</a>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
